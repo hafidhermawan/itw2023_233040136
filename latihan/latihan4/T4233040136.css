@@ -1,0 +1,122 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(bg.jpg) ;
+    background-position: center;
+}
+
+.container {
+    width: 785px;
+    margin: auto;
+    background-color: white;
+
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: -40px;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: blue;
+    padding: 5px;
+    transition: .5s;
+}
+
+.header a:hover {
+    color: white;
+    background-color: black ;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(persib1.jpeg);
+    margin-right: 25px;
+    margin-left: 25px;
+    background-position: -150px;
+    border-top: 5px solid #A50044;
+    border-bottom: 5px solid #004D98;
+    background-size: cover;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content .penulis {
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: #A50044;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.hero2 {
+    height: 500px;
+    background-image: url(persib2.jpg) ;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-position: 0px;
+    border-top: 5px solid #A50044;
+    border-bottom: 5px solid #004D98;
+    background-size: cover;
+}
+
+.content2 {
+    padding: 10px;
+}
+
+.content2 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.content2 .penulis2 {
+    margin-top: -30px;
+    font-size: 14px;
+}
+
+.content2 .penulis2 a{
+    text-decoration: none;
+    color: #A50044;
+}
+
+.content2 h3{
+    font-size: 30px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #eaeaea;
+}
+
+.footer .copy {
+    font-size: 12px;
+    text-align: center;
+}
